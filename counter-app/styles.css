@@ -16,6 +16,7 @@
   --lime: #c5d86d;
   --sec-color: #f46036;
   --dark-grey: #57575a;
+  --shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 * {
@@ -32,6 +33,14 @@ body {
   font-family: 'Nunito', sans-serif;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  text-transform: capitalize;
+}
+
+.title {
+  font-size: 3rem;
+}
+
 p {
   font-size: 1.6rem;
   line-height: 1.5;
@@ -42,7 +51,76 @@ img {
 }
 
 .container {
-  min-width: 900px;
+  min-width: 100%;
   margin: 0 auto;
   padding: 0 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.counter-div {
+  width: 40rem;
+  padding: 1rem;
+  box-shadow: var(--shadow);
+  background-color: var(--dark-grey);
+  color: var(--white);
+  text-align: center;
+  border-radius: 5px;
+  padding: 2rem;
+}
+
+.counter-div > * {
+  margin-bottom: 2rem;
+}
+
+.count {
+  font-size: 4rem;
+}
+
+button {
+  padding: 1rem;
+  font-size: 2rem;
+  cursor: pointer;
+  text-transform: capitalize;
+  outline: none;
+  border: 0;
+  margin: 0 0.5rem;
+  border-radius: 5px;
+}
+
+.success {
+  color: var(--white);
+  background-color: var(--green);
+}
+
+.danger {
+  color: var(--white);
+  background-color: var(--bright-red);
+}
+
+.warning {
+  color: var(--white);
+  background-color: var(--sec-color);
+}
+
+.lime-btn {
+  color: var(--white);
+  background-color: var(--lime);
+}
+
+.grey-btn {
+  color: var(--white);
+  background-color: var(--grey);
+}
+
+.black-btn {
+  color: var(--white);
+  background-color: var(--black);
+}
+
+.white-btn {
+  color: var(--black);
+  background-color: var(--white);
 }
