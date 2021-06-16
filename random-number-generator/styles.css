@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;800;900&display=swap');
+
+:root {
+  --white: white;
+  --black: black;
+  --smoke: whitesmoke;
+  --primary: #5f1a37;
+  --light-primary: #776885;
+  --deep-blue: #2e294e;
+  --blue: #3f84e5;
+  --light-blue: #90c2e7;
+  --green: #3f784c;
+  --light-green: #1b998b;
+  --red: #b20d30;
+  --bright-red: #e71d36;
+  --lime: #c5d86d;
+  --sec-color: #f46036;
+  --dark-grey: #57575a;
+  --shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: 'Nunito', sans-serif;
+  background-color: var(--light-primary);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  text-transform: capitalize;
+}
+
+.title {
+  font-size: 3rem;
+}
+
+p {
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+
+img {
+  width: 100%;
+}
+
+.container {
+  min-width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.generator-div {
+  width: 40rem;
+  padding: 1rem;
+  box-shadow: var(--shadow);
+  background-color: var(--primary);
+  color: var(--white);
+  text-align: center;
+  border-radius: 5px;
+  padding: 2rem;
+}
+
+.generator-div > * {
+  margin-bottom: 2rem;
+}
+
+.number {
+  font-size: 4rem;
+  padding: 0 1rem;
+}
+
+button {
+  padding: 1rem;
+  font-size: 2rem;
+  cursor: pointer;
+  text-transform: capitalize;
+  outline: none;
+  border: 0;
+  margin: 0 0.5rem;
+  border-radius: 5px;
+}
+
+.success {
+  color: var(--white);
+  background-color: var(--green);
+}
+
+.danger {
+  color: var(--white);
+  background-color: var(--bright-red);
+}
+
+.warning {
+  color: var(--white);
+  background-color: var(--sec-color);
+}
+
+.lime-btn {
+  color: var(--white);
+  background-color: var(--lime);
+}
+
+.grey-btn {
+  color: var(--white);
+  background-color: var(--grey);
+}
+
+.black-btn {
+  color: var(--white);
+  background-color: var(--black);
+}
+
+.white-btn {
+  color: var(--black);
+  background-color: var(--white);
+}

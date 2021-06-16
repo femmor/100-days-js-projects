@@ -3,3 +3,4 @@ I will be building 90+ projects using HTML, CSS and Vanilla JavaScript in 100 da
 
 1. Day 1 - [Counter App](https://100days-counter-app.netlify.app)
 2. Day 2 - [Random Hex Color Generator](https://100days-random-hex.netlify.app)
+3. Day 3 - [Random Number Generator](https://100days-random-number.netlify.app)
