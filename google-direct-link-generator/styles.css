@@ -363,7 +363,7 @@ section .content {
   cursor: pointer;
   color: var(--white);
   background-color: var(--sec-color);
-  padding: 3px 7px;
+  padding: 4px 10px;
   border-radius: 10px;
   transition: all .3s
 }
