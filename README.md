@@ -8,4 +8,5 @@ Day 4 - [Modal Popup](https://100days-modal-popup.netlify.app)\
 Day 5 - [Palindrome Checker](https://100days-palindrome-checker.netlify.app)\
 Day 6 - [Vowel Counter](https://100days-vowel-counter.netlify.app)\
 Day 7 - [Click to Copy](https://100days-click-copy.netlify.app)\
-Day 8 - [Google Direct Link Generator](https://100days-google-link-generator.netlify.app)
+Day 8 - [Google Direct Link Generator](https://100days-google-link-generator.netlify.app)\
+Day 9 - [Input Character Count](https://100days-input-chars-count.netlify.app)\
