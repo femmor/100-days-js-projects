@@ -10,5 +10,5 @@ Day 6 - [Vowel Counter](https://100days-vowel-counter.netlify.app)\
 Day 7 - [Click to Copy](https://100days-click-copy.netlify.app)\
 Day 8 - [Google Direct Link Generator](https://100days-google-link-generator.netlify.app)\
 Day 9 - [Input Character Count](https://100days-input-chars-count.netlify.app)\
-Day 10 - [Internet Connection Status Detector](https://100days-internet-connection-detector.netlify.app)
+Day 10 - [Internet Connection Status Detector](https://100days-internet-connection-detector.netlify.app)\
 Day 11 - [Geolocation](https://100days-geolocation.netlify.app)
